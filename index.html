@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+  
+  <!-- CSS files -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+
+<h1> Magpies and Swooping in Australia</h1>
+</br>
+<p style="font-size: large;">The Australian Magpie (Gymnorhina tibicen) is one of the most recognisable birds in Australia. They are extremely smart, capable of recognising up to 100 human faces, and are accomplished songbirds.</br> They are very common in Eastern Australia, and can be seen all over Victoria. Click on the months to see how sightings change over the year!</p>
+<div id="vis1"></div>
+</br>
+<p style="font-size: large;">While magpies are extraordinary birds, they can be rather territorial at times. To protect their territory, they sometimes swoop at passers-by, which sometimes ends in injury. But what causes people to get swooped? Here's what some people were doing when <b>they</b> got swooped!</p>
+<div id="vis2"></div>
+</br>
+<p style="font-size: large;">So most of the people that get swooped are cyclists!</br> It makes a lot of sense - if I whizzed by through your front yard, you probably also get a bit angry!</br> After that, people walking and playing are next. So you should still be careful, because some magpies are just a bit grumpy no matter how fast you go!</br> Usually magpies are known to give a few warning swoops, so if a magpie does try swooping you, make eye-contact (they know when they're being watched), and look for a big stick to carry.</p>
+<p style="font-size: large;">Now we know <b>what</b> not to do, how do we know <b>when</b> not to do it?</p>
+<div id="vis3"></div>
+<p style="font-size: large;">As we can see, the overwhelming majority of attacks happen in Spring. Hover over the different chunks to find out which months are the most dangerous!</p>
+<p style="font-size: large;">But when they do strike, just how bad is their bite? Let's find out!</p>
+<div id="vis4"></div>
+
+<p style="font-size: large;">And that's it! Hope you have fun! Magpies are usually pretty friendly, but now you know how not to get on their bad side!</p>
+</br>
+<p><b>Data sources:</b></p>
+<p style="font-size:small">Magpie distribution was sourced from the Atlas of Living Australia accessible <a href="https://doi.org/10.26197/ala.3cd6c215-2a87-4be8-8464-8bb00d2ee80d">here</a>.</p>
+<p style="font-size:small">Injury statistics were sourced from Flinders University injury statistics accessible <a href="https://www.aihw.gov.au/getmedia/d7fbb15a-46f1-496b-a8d3-ff46d7f8ab08/magpie-injuries.pdf.aspx?inline=true">here</a>.</p>
+<p style="font-size:small">Created by Joseph Parry (2024).</p>
+
+<script type="text/javascript">
+var spec = "js/dot_map.vg.json";
+vegaEmbed("#vis1", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+var spec2 = "js/bar_graph.vg.json";
+vegaEmbed("#vis2", spec2, {mode: "vega-lite"}).then(console.log).catch(console.warn)
+var spec3 = "js/radial_chart.vg.json"; 
+vegaEmbed("#vis3", spec3, {mode: "vega-lite"}).then(console.log).catch(console.warn)
+var spec4 = "js/heat_map.vg.json"; 
+vegaEmbed("#vis3", spec4, {mode: "vega-lite"}).then(console.log).catch(console.warn)
+</script>
+
+</body>
+</html>

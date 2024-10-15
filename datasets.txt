@@ -1,0 +1,10 @@
+occurrence database: 
+https://doi.org/10.26197/ala.3cd6c215-2a87-4be8-8464-8bb00d2ee80d
+Author: Atlas of Living Australia
+Date: 2024 (refers to 2000-2010)
+
+
+injury dataset:
+https://www.aihw.gov.au/getmedia/d7fbb15a-46f1-496b-a8d3-ff46d7f8ab08/magpie-injuries.pdf.aspx?inline=true
+Author: Renate Kreisfeld
+Date: 9 Oct 1997
