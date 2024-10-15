@@ -1,0 +1,8 @@
+Month,Cases,Season,Radius,End
+January,1,Summer,2,4
+May,1,Autumn,4,6
+August,9,Winter,6,8
+September,21,Spring,8,10
+October,19,Spring,10,12
+November,7,Spring,12,14
+December,1,Summer,14,16

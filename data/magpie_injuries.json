@@ -1,0 +1,61 @@
+[
+{"Injury":"Penetrating wound", "Body Part": "Eye"},
+{"Injury":"Sprain", "Body Part": "Neck"},
+{"Injury":"Cut", "Body Part": "Face"},
+{"Injury":"Abrasion", "Body Part": "Face"}
+,{"Injury":"Abrasion", "Body Part": "Nose"}
+,{"Injury":"Fracture", "Body Part": "Arm"}
+,{"Injury":"Sprain", "Body Part": "Ankle"}
+,{"Injury":"Fracture", "Body Part": "Leg"}
+,{"Injury":"Cut", "Body Part": "Nose"}
+,{"Injury":"Cut", "Body Part": "Nose"}
+,{"Injury":"Fracture", "Body Part": "Arm"}
+,{"Injury":"Abrasion", "Body Part": "Nose"}
+,{"Injury":"Concussion", "Body Part": "Head"}
+,{"Injury":"Fracture", "Body Part": "Finger"}
+,{"Injury":"Bruise", "Body Part": "Face"}
+,{"Injury":"Sprain", "Body Part": "Ankle"}
+,{"Injury":"Sprain", "Body Part": "Shoulder"}
+,{"Injury":"Cut", "Body Part": "Head"}
+,{"Injury":"Puncture", "Body Part": "Head"}
+,{"Injury":"Fracture", "Body Part": "Ankle"}
+,{"Injury":"Cut", "Body Part": "Face"}
+,{"Injury":"Penetrating wound", "Body Part": "Eye"}
+,{"Injury":"Abrasion", "Body Part": "Eye"}
+,{"Injury":"Fracture", "Body Part": "Elbow"}
+,{"Injury":"Concussion", "Body Part": "Head"}
+,{"Injury":"Inflammation", "Body Part": "Chest"}
+,{"Injury":"Cut", "Body Part": "Face"}
+,{"Injury":"Inflammation", "Body Part": "Shoulder"}
+,{"Injury":"Bruise", "Body Part": "Elbow"}
+,{"Injury":"Fracture", "Body Part": "Finger"}
+,{"Injury":"Bite", "Body Part": "Head"}
+,{"Injury":"Fracture", "Body Part": "Clavicle"}
+,{"Injury":"Fracture", "Body Part": "Clavicle"}
+,{"Injury":"Bruise", "Body Part": "Elbow"}
+,{"Injury":"Abrasion", "Body Part": "Chest"}
+,{"Injury":"Inflammation", "Body Part": "Shoulder"}
+,{"Injury":"Fracture", "Body Part": "Arm"}
+,{"Injury":"Cut", "Body Part": "Eye"}
+,{"Injury":"Abrasion", "Body Part": "Eye"}
+,{"Injury":"Cut", "Body Part": "Face"}
+,{"Injury":"Cut", "Body Part": "Knee"}
+,{"Injury":"Fracture", "Body Part": "Clavicle"}
+,{"Injury":"Fracture", "Body Part": "Finger"}
+,{"Injury":"Penetrating wound", "Body Part": "Eye"}
+,{"Injury":"Penetrating wound", "Body Part": "Eye"}
+,{"Injury":"Cut", "Body Part": "Eye"}
+,{"Injury":"Abrasion", "Body Part": "Eye"}
+,{"Injury":"Fracture", "Body Part": "Mouth"}
+,{"Injury":"Bite", "Body Part": "Head"}
+,{"Injury":"Haemorrhage", "Body Part": "Eye"}
+,{"Injury":"Dislocation", "Body Part": "Clavicle"}
+,{"Injury":"Bruise", "Body Part": "Knee"}
+,{"Injury":"Fracture", "Body Part": "Ribs"}
+,{"Injury":"Cut", "Body Part": "Knee"}
+,{"Injury":"Puncture", "Body Part": "Face"}
+,{"Injury":"Bite", "Body Part": "Ear"}
+,{"Injury":"Fracture", "Body Part": "Ankle"}
+,{"Injury":"Penetrating wound", "Body Part": "Eye"}
+,{"Injury":"Penetrating wound", "Body Part": "Eye"}
+]

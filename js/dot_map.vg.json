@@ -1,0 +1,49 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Reports of Magpies in Victoria from 1980-1990",
+    "width": 500,
+    "height": 300,
+    "projection": {"type":"equirectangular"},
+    "layer": [
+        {
+            "data": {
+                "url": "./js/victoria.topojson",
+                "format": {
+                  "type": "topojson",
+                  "feature": "vic_top"
+                }
+              },
+            "mark": {"type": "geoshape", "fill":"lightgray","stroke":"darkgray"}
+        },
+          {
+            "data": {
+              "url": "./data/magpie_location.csv"
+            },
+            "mark": "circle",
+            "encoding": {
+              "longitude": {
+                "field": "longitude",
+                "type": "quantitative"
+              },
+              "latitude": {
+                "field": "latitude",
+                "type": "quantitative"
+              },
+              "size": {"value": 10},
+              "color": {"field": "Month", "sort": ["January","February","March","April","May","June","July","August","September","October","November","December","Unknown"],"type": "nominal"},
+              "opacity": {
+                "condition": {"param": "month_highlight", "value": 0.6},
+                "value": 0
+              }
+            },
+            "params": [
+                {
+                    "name":"month_highlight",
+                    "select": {"type":"point","fields": ["Month"]},
+                    "bind": "legend"
+                }
+            ]
+          }
+        ]
+  }
+  

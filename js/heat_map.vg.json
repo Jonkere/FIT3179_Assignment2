@@ -1,0 +1,13 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title":"Magpie-related Injury Locations and Type",
+    "data": {"url": "./data/magpie_injuries.json"},
+    "mark": "rect",
+    "encoding": {
+      "y": {"field": "Injury", "type": "nominal"},
+      "x": {"field": "Body Part", "type": "nominal"}
+    },
+    "config": {
+      "axis": {"grid": true, "tickBand": "extent"}
+    }
+  }

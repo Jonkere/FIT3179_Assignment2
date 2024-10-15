@@ -1,0 +1,22 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple radial chart with embedded data.",
+    "title":"Number of Magpie-Related Injuries per Month",
+    "data": {
+      "url": "./data/magpie_months.csv"
+    },
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"},
+      "encoding": {"tooltip": [
+        {"field":"Month","type": "nominal"},
+        {"field":"Season","type":"nominal"},
+        {"field":"Cases","type": "quantitative"}
+      ]}
+    }],
+    "encoding": {
+      "theta": {"field": "Radius", "type": "quantitative", "stack": true},
+      "theta2": {"field":"End"},
+      "radius": {"field": "Cases", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "Season", "type": "nominal"}
+    }
+  }
