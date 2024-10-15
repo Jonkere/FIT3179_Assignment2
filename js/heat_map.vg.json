@@ -4,8 +4,8 @@
     "data": {"url": "./data/magpie_injuries.json"},
     "mark": "rect",
     "encoding": {
-      "y": {"field": "Injury", "type": "nominal"},
-      "x": {"field": "Body Part", "type": "nominal"}
+      "y": {"field": "Body Part", "type": "nominal"},
+      "x": {"field": "Injury", "type": "nominal"}
     },
     "config": {
       "axis": {"grid": true, "tickBand": "extent"}
